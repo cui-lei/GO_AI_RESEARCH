@@ -1,0 +1,26 @@
+KataGo Strong vs KataGo Weak — Evaluation Summary
+Board Size: 19x19
+Rules: Chinese, Komi 7.5
+Number of Games: 20
+Engine Versions:
+  - Strong Model: g170-b20c256x2-s5303129600
+  - Weak Model:   g170-b6c96-s175395328
+
+Final Results:
+  Strong Model Wins: 18
+  Weak Model Wins:    2
+  Win Rate (Strong):  90%
+
+Observations:
+1. Weak model frequently over-extends in early opening fights, especially in corners.
+2. Strong model shows clear superiority in life-and-death judgment and whole-board balance.
+3. In most games, strong model secures territory advantage by move 120–150.
+4. Two weak-model wins occurred due to:
+   - an early capturing race mis-evaluation by the strong model (Game 7)
+   - an unstable ladder-reading position (Game 14)
+5. Differences between both versions are very useful for teaching:
+   - opening shape quality
+   - mid-game influence control
+   - endgame precision
+
+All SGF game files (game_001.sgf – game_020.sgf) are included in this directory.
