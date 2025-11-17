@@ -1,0 +1,4 @@
+(;GM[1]FF[4]SZ[19]KM[7.5]
+PB[KataGo-Strong]PW[KataGo-Weak]
+RE[W+R]   C[Weak model wins — capturing race anomaly]
+;B[pp];W[dd];B[pq];W[dc];B[cf];W[qp];B[qf];W[fc];B[od];W[pc])
